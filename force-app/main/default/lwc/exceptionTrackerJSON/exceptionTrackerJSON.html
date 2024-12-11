@@ -1,0 +1,18 @@
+<template>
+    
+
+    <lightning-accordion allow-multiple-sections-open>
+        <lightning-accordion-section name="section1" label={sectionTitle}>
+            <div class="slds-p-around_medium">
+                <template if:true={jsonData}>
+                    <div class="json-container" lwc:dom="manual"></div>
+                </template>
+                <template if:false={jsonData}>
+                    <p class="nodata">No JSON data available.</p>
+                </template>
+            </div>
+        </lightning-accordion-section> 
+    </lightning-accordion>
+
+    
+</template>

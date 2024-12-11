@@ -1,0 +1,35 @@
+.json-container, .nodata { 
+    white-space: pre-wrap;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.json-container
+{
+    font-family: monospace;
+}
+
+.json-key {
+    color: #881391;
+}
+
+.json-string {
+    color: #1a1aa6;
+}
+
+.json-number {
+    color: #1c00cf;
+}
+
+.json-boolean {
+    color: #0000ff;
+}
+
+.json-null {
+    color: #808080;
+}
+
+.json-unknown, .nodata {
+    color: #ff0000;
+}
